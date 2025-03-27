@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1c8dfa70-5213-4629-87b9-f78983e6ce8f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>mainPackage\main.py</StartupFile>
+    <StartupFile>Assignment8Package\Assignment08main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,18 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assignment8Package\Assignment08main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Assignment8Package\display_image.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Assignment8Package\visualization.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Assignment8Package\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="dataPackage\__init__.py">
       <SubType>Code</SubType>
     </Compile>
@@ -51,6 +63,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Assignment8Package\" />
     <Folder Include="dataPackage\" />
     <Folder Include="dataPackage\MMLU\" />
     <Folder Include="dataPackage\MMLU\data\" />
