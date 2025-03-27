@@ -1,5 +1,5 @@
 # File Name : Assignment8_main.py
-# Student Name: Jacob Farrell
+# Student Name: Jacob Farrell & Daquan Daniels 
 # email:  farrelcj@mail.uc.edu
 # Assignment Number: Assignment 08
 # Due Date:   3/27/2025
@@ -26,5 +26,7 @@ questions = CSV_Processor.read_data()
 display_team_image("gloom.png")
 
 # Show chart
-show_answer_distribution(questions)
-
+file_path = "dataPackage/MMLU/data/management_test.csv"  #   Explicitly define file_path
+print("Type of file_path:", type(file_path))  #   Debugging line 1
+print("Value of file_path:", file_path)  #   Debugging line 2
+show_answer_distribution(file_path)
